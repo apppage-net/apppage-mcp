@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "apppage": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://apppage.net/mcp", "--header", "Authorization: Bearer ${APPPAGE_API_KEY}"],
+      "env": { "APPPAGE_API_KEY": "YOUR_KEY" }
+    }
+  }
+}

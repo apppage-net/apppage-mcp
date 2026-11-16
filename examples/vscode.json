@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "apppage": {
+      "type": "http",
+      "url": "https://apppage.net/mcp",
+      "headers": { "Authorization": "Bearer YOUR_KEY" }
+    }
+  }
+}
