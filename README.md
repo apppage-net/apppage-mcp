@@ -151,12 +151,12 @@ Values missing from a result are unknown, not zero.
 
 ## Related
 
-- [app-ads-txt-validator](https://github.com/OWNER/app-ads-txt-validator): CLI and GitHub Action that checks app-ads.txt the way ad networks do
+- [app-ads-txt-validator](https://github.com/apppage-net/app-ads-txt-validator): CLI and GitHub Action that checks app-ads.txt the way ad networks do
 - [Free tools for app developers](https://apppage.net/tools): ASO audit, keyword rank checker, privacy policy generator, app-ads.txt checker, icon and screenshot generators
 
 ## Support
 
-Issues and requests: [open an issue](https://github.com/OWNER/apppage-mcp/issues)
+Issues and requests: [open an issue](https://github.com/apppage-net/apppage-mcp/issues)
 or write to info@apppage.net.
 
 ## License
