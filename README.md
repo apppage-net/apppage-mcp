@@ -9,6 +9,8 @@ more.
 - **Endpoint:** `https://apppage.net/mcp` (Streamable HTTP)
 - **Free, no signup** for app data: 50 calls a day. A free
   [API key](https://apppage.net/panel/api-keys) raises it to 1000.
+- **Claude plugin:** [AppPage.net in the Claude directory](https://claude.ai/directory/apppage-net),
+  one click to add
 - **Registry:** [`net.apppage/app-data`](https://registry.modelcontextprotocol.io/v0/servers?search=net.apppage)
   on the official MCP Registry
 - **Docs:** [apppage.net/developers](https://apppage.net/developers)
@@ -18,7 +20,15 @@ client setup and examples. There is nothing to install.
 
 ## Connect
 
-### Claude Code
+### Claude plugin (claude.ai, Claude Desktop, Claude Code)
+
+AppPage.net is listed in the Claude directory:
+**[claude.ai/directory/apppage-net](https://claude.ai/directory/apppage-net)**.
+Click **Add**, sign in to AppPage.net and choose on the consent page whether
+Claude may change your sites. You can disconnect it any time under
+[API keys](https://apppage.net/panel/api-keys). A free account is enough.
+
+### Claude Code (manual)
 
 ```bash
 claude mcp add --transport http apppage https://apppage.net/mcp
@@ -26,9 +36,10 @@ claude mcp add --transport http apppage https://apppage.net/mcp
 
 With a key: add `--header "Authorization: Bearer YOUR_KEY"`.
 
-### Claude (claude.ai and Claude Desktop)
+### Claude custom connector (claude.ai and Claude Desktop)
 
-Settings → Connectors → **Add custom connector**, then paste
+If you'd rather not use the directory listing: Settings → Connectors →
+**Add custom connector**, then paste
 `https://apppage.net/mcp/account` and click Connect. You log in to
 AppPage.net and choose whether Claude may change your sites. For app data
 only, without an account, use `https://apppage.net/mcp`.
