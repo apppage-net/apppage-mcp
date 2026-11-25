@@ -13,6 +13,7 @@ more.
   one click to add
 - **Registry:** [`net.apppage/app-data`](https://registry.modelcontextprotocol.io/v0/servers?search=net.apppage)
   on the official MCP Registry
+- **Glama:** [AppPage.net on Glama](https://glama.ai/mcp/connectors/net.apppage/app-data)
 - **Docs:** [apppage.net/developers](https://apppage.net/developers)
 
 The server runs at apppage.net; this repository holds its documentation,
